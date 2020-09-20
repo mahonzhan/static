@@ -44,7 +44,7 @@ spec:
           periodSeconds: 3
           timeoutSeconds: 1
           successThreshold: 3
-          failureThreashold: 100
+          failureThreshold: 100
         livenessProbe:
           httpGet:
             path: /index.html
