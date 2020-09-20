@@ -6,6 +6,7 @@ metadata:
     app: nginx
 spec:
   replicas: 5
+  paused: true
   progressDeadlineSeconds: 600
   minReadySeconds: 0
   revisionHistoryLimit: 10
